@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="DPI-zq-WrW">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="AViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="PageRotateExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AViewController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahW-Hz-JH9">
+                                <rect key="frame" x="239" y="289" width="123" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcO-x0-dSf">
+                                <rect key="frame" x="242.5" y="323" width="115" height="30"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="VdZ-AU-eQ9"/>
+                                </constraints>
+                                <state key="normal" title="显示横屏页B"/>
+                                <connections>
+                                    <action selector="onTouchUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gSY-Eo-SYd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RcO-x0-dSf" firstAttribute="top" secondItem="ahW-Hz-JH9" secondAttribute="bottom" constant="12.5" id="HDb-SO-WVb"/>
+                            <constraint firstItem="ahW-Hz-JH9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WXf-NC-ewK"/>
+                            <constraint firstItem="RcO-x0-dSf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fK1-ev-9Z9"/>
+                            <constraint firstItem="ahW-Hz-JH9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uEa-OP-MyT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pl2-3B-OB4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1213" y="547"/>
+        </scene>
+        <!--Viewcontroller-->
+        <scene sceneID="PgQ-iF-ZCc">
+            <objects>
+                <viewController storyboardIdentifier="BViewController" id="lgY-Sm-ORO" customClass="BViewcontroller" customModule="PageRotateExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dng-QQ-KHO"/>
+                        <viewControllerLayoutGuide type="bottom" id="uOK-0J-QQu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Iaj-Qf-ih7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BViewController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3U-CY-YyA">
+                                <rect key="frame" x="238" y="289" width="124" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oic-lV-7mY">
+                                <rect key="frame" x="28" y="20" width="60" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="9L1-95-e63"/>
+                                </constraints>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <action selector="onBack:" destination="lgY-Sm-ORO" eventType="touchUpInside" id="Ru7-Vw-Hoi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEX-oT-JbD">
+                                <rect key="frame" x="269.5" y="318" width="61" height="30"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="Nc9-N2-JlM"/>
+                                </constraints>
+                                <state key="normal" title="显示C"/>
+                                <connections>
+                                    <action selector="onTouchUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="27C-T9-3PQ"/>
+                                    <action selector="onTouchUp:" destination="lgY-Sm-ORO" eventType="touchUpInside" id="iR3-Ft-zog"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oic-lV-7mY" firstAttribute="top" secondItem="dng-QQ-KHO" secondAttribute="bottom" id="0Gz-5a-0o8"/>
+                            <constraint firstItem="Q3U-CY-YyA" firstAttribute="centerX" secondItem="Iaj-Qf-ih7" secondAttribute="centerX" id="1hd-Zi-wuM"/>
+                            <constraint firstItem="oic-lV-7mY" firstAttribute="leading" secondItem="Iaj-Qf-ih7" secondAttribute="leadingMargin" constant="8" id="5G9-xA-E4N"/>
+                            <constraint firstItem="UEX-oT-JbD" firstAttribute="top" secondItem="Q3U-CY-YyA" secondAttribute="bottom" constant="7.5" id="Gws-Q8-atV"/>
+                            <constraint firstItem="Q3U-CY-YyA" firstAttribute="centerY" secondItem="Iaj-Qf-ih7" secondAttribute="centerY" id="f8C-gL-WYY"/>
+                            <constraint firstItem="UEX-oT-JbD" firstAttribute="centerX" secondItem="Iaj-Qf-ih7" secondAttribute="centerX" id="xM5-rB-TeR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iEa-YE-LDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1897" y="547"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jnf-n2-1qU">
+            <objects>
+                <viewController storyboardIdentifier="CViewController" id="NL2-su-45P" customClass="CViewController" customModule="PageRotateExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sL3-98-z2J"/>
+                        <viewControllerLayoutGuide type="bottom" id="YrV-8o-aUv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Iga-EG-QQD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CViewController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qpQ-ya-Yfw">
+                                <rect key="frame" x="237" y="289" width="125" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4n-S1-iIr">
+                                <rect key="frame" x="20" y="20" width="57" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="57" id="17q-kF-hSO"/>
+                                </constraints>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <action selector="onTouchUp:" destination="NL2-su-45P" eventType="touchUpInside" id="1TL-8M-bZ2"/>
+                                    <action selector="onTouchUp:" destination="lgY-Sm-ORO" eventType="touchUpInside" id="yXk-34-Izb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qpQ-ya-Yfw" firstAttribute="centerY" secondItem="Iga-EG-QQD" secondAttribute="centerY" id="70O-H0-Hgh"/>
+                            <constraint firstItem="N4n-S1-iIr" firstAttribute="top" secondItem="sL3-98-z2J" secondAttribute="bottom" id="Dkx-o4-Heq"/>
+                            <constraint firstItem="qpQ-ya-Yfw" firstAttribute="centerX" secondItem="Iga-EG-QQD" secondAttribute="centerX" id="bse-UN-xfq"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="N4n-S1-iIr" secondAttribute="leading" id="uF6-MC-2HY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H0I-Ej-fRq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2557" y="547"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4eH-xf-oYn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DPI-zq-WrW" customClass="NavigationController" customModule="PageRotateExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wKY-84-RUi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="o90-sV-dGe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qwh-2r-jNf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="489" y="547"/>
+        </scene>
+    </scenes>
+</document>
