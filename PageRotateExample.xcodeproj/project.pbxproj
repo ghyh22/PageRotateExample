@@ -19,6 +19,7 @@
 		031023B71D73E9FC00BC5AAC /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031023B61D73E9FC00BC5AAC /* NavigationController.swift */; };
 		031023B91D73F1AE00BC5AAC /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031023B81D73F1AE00BC5AAC /* CViewController.swift */; };
 		031023BB1D74587400BC5AAC /* DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031023BA1D74587400BC5AAC /* DViewController.swift */; };
+		031023BD1D7803AE00BC5AAC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 031023BC1D7803AE00BC5AAC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		031023B61D73E9FC00BC5AAC /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		031023B81D73F1AE00BC5AAC /* CViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
 		031023BA1D74587400BC5AAC /* DViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DViewController.swift; sourceTree = "<group>"; };
+		031023BC1D7803AE00BC5AAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				0310239A1D73E3D700BC5AAC /* PageRotateExampleTests */,
 				031023A51D73E3D700BC5AAC /* PageRotateExampleUITests */,
 				031023811D73E3D600BC5AAC /* Products */,
+				031023BC1D7803AE00BC5AAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -277,6 +280,7 @@
 				031023861D73E3D600BC5AAC /* ViewController.swift in Sources */,
 				031023BB1D74587400BC5AAC /* DViewController.swift in Sources */,
 				031023B91D73F1AE00BC5AAC /* CViewController.swift in Sources */,
+				031023BD1D7803AE00BC5AAC /* README.md in Sources */,
 				031023841D73E3D600BC5AAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
