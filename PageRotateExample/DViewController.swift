@@ -9,17 +9,17 @@
 import UIKit
 
 class DViewController: UIViewController {
-    var b:BViewcontroller!
+    var b:BViewController!
     override func viewDidLoad() {
         self.view.backgroundColor = UIColor.whiteColor()
         if b == nil {
             let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
-            self.b = storyboard.instantiateViewControllerWithIdentifier("BViewController") as! BViewcontroller
+            self.b = storyboard.instantiateViewControllerWithIdentifier("BViewController") as! BViewController
         }
     }
     override func viewWillAppear(animated: Bool) {
-        if !b.showing {
-            self.presentViewController(b, animated: false, completion: nil)
+        if b.view.window == nil {
+            self.navigationController?.presentViewController(b, animated: false, completion: nil)
         }
     }
 }

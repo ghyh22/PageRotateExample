@@ -50,10 +50,10 @@
             </objects>
             <point key="canvasLocation" x="1213" y="547"/>
         </scene>
-        <!--Viewcontroller-->
+        <!--View Controller-->
         <scene sceneID="PgQ-iF-ZCc">
             <objects>
-                <viewController storyboardIdentifier="BViewController" id="lgY-Sm-ORO" customClass="BViewcontroller" customModule="PageRotateExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BViewController" id="lgY-Sm-ORO" customClass="BViewController" customModule="PageRotateExample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dng-QQ-KHO"/>
                         <viewControllerLayoutGuide type="bottom" id="uOK-0J-QQu"/>

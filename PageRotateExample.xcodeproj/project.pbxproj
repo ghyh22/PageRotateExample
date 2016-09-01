@@ -15,7 +15,7 @@
 		031023911D73E3D600BC5AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0310238F1D73E3D600BC5AAC /* LaunchScreen.storyboard */; };
 		0310239C1D73E3D700BC5AAC /* PageRotateExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310239B1D73E3D700BC5AAC /* PageRotateExampleTests.swift */; };
 		031023A71D73E3D700BC5AAC /* PageRotateExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031023A61D73E3D700BC5AAC /* PageRotateExampleUITests.swift */; };
-		031023B51D73E55E00BC5AAC /* BViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031023B41D73E55E00BC5AAC /* BViewcontroller.swift */; };
+		031023B51D73E55E00BC5AAC /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031023B41D73E55E00BC5AAC /* BViewController.swift */; };
 		031023B71D73E9FC00BC5AAC /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031023B61D73E9FC00BC5AAC /* NavigationController.swift */; };
 		031023B91D73F1AE00BC5AAC /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031023B81D73F1AE00BC5AAC /* CViewController.swift */; };
 		031023BB1D74587400BC5AAC /* DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031023BA1D74587400BC5AAC /* DViewController.swift */; };
@@ -53,7 +53,7 @@
 		031023A21D73E3D700BC5AAC /* PageRotateExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageRotateExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		031023A61D73E3D700BC5AAC /* PageRotateExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageRotateExampleUITests.swift; sourceTree = "<group>"; };
 		031023A81D73E3D700BC5AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		031023B41D73E55E00BC5AAC /* BViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BViewcontroller.swift; sourceTree = "<group>"; };
+		031023B41D73E55E00BC5AAC /* BViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		031023B61D73E9FC00BC5AAC /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		031023B81D73F1AE00BC5AAC /* CViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
 		031023BA1D74587400BC5AAC /* DViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DViewController.swift; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 				0310238F1D73E3D600BC5AAC /* LaunchScreen.storyboard */,
 				031023921D73E3D600BC5AAC /* Info.plist */,
 				0310238A1D73E3D600BC5AAC /* PageRotateExample.xcdatamodeld */,
-				031023B41D73E55E00BC5AAC /* BViewcontroller.swift */,
+				031023B41D73E55E00BC5AAC /* BViewController.swift */,
 				031023B81D73F1AE00BC5AAC /* CViewController.swift */,
 				031023B61D73E9FC00BC5AAC /* NavigationController.swift */,
 				031023BA1D74587400BC5AAC /* DViewController.swift */,
@@ -272,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0310238C1D73E3D600BC5AAC /* PageRotateExample.xcdatamodeld in Sources */,
-				031023B51D73E55E00BC5AAC /* BViewcontroller.swift in Sources */,
+				031023B51D73E55E00BC5AAC /* BViewController.swift in Sources */,
 				031023B71D73E9FC00BC5AAC /* NavigationController.swift in Sources */,
 				031023861D73E3D600BC5AAC /* ViewController.swift in Sources */,
 				031023BB1D74587400BC5AAC /* DViewController.swift in Sources */,

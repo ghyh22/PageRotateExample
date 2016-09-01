@@ -8,15 +8,7 @@
 
 import UIKit
 
-class BViewcontroller: UIViewController {
-    
-    var showing = false
-    override func viewDidAppear(animated: Bool) {
-        showing = true
-    }
-    override func viewDidDisappear(animated: Bool) {
-        showing = false
-    }
+class BViewController: UIViewController {
     
     override func shouldAutorotate() -> Bool {
         return true
