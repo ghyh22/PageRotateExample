@@ -20,12 +20,21 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func onTouchUp(sender: UIButton) {
+    @IBAction func onTouchUp(_ sender: UIButton) {
 //        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
 //        let b = storyboard.instantiateViewControllerWithIdentifier("BViewController")
 //        self.presentViewController(b, animated: true, completion: nil)
-        self.showViewController(DViewController(), sender: nil)
+        self.show(DViewController(), sender: nil)
     }
-
+    
+    override var shouldAutorotate : Bool {
+        return false
+    }
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
+        return .portrait
+    }
+    override var preferredInterfaceOrientationForPresentation : UIInterfaceOrientation {
+        return .portrait
+    }
 }
 

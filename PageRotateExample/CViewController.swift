@@ -10,7 +10,7 @@ import UIKit
 
 class CViewController: UIViewController {
     
-    @IBAction func onTouchUp(sender: UIButton) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func onTouchUp(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
 }

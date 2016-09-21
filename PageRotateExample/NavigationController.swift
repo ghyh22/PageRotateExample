@@ -9,10 +9,13 @@
 import UIKit
 
 class NavigationController: UINavigationController {
-    override func shouldAutorotate() -> Bool {
+    override var shouldAutorotate : Bool {
         return false
     }
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        return .Portrait
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
+        return .portrait
+    }
+    override var preferredInterfaceOrientationForPresentation : UIInterfaceOrientation {
+        return .portrait
     }
 }

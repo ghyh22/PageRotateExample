@@ -11,15 +11,15 @@ import UIKit
 class DViewController: UIViewController {
     var b:BViewController!
     override func viewDidLoad() {
-        self.view.backgroundColor = UIColor.whiteColor()
+        self.view.backgroundColor = UIColor.white
         if b == nil {
-            let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
-            self.b = storyboard.instantiateViewControllerWithIdentifier("BViewController") as! BViewController
+            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+            self.b = storyboard.instantiateViewController(withIdentifier: "BViewController") as! BViewController
         }
     }
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         if b.view.window == nil {
-            self.navigationController?.presentViewController(b, animated: false, completion: nil)
+            self.navigationController?.present(b, animated: false, completion: nil)
         }
     }
 }

@@ -45,6 +45,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Pl2-3B-OB4"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
