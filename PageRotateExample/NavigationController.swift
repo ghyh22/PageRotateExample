@@ -10,7 +10,7 @@ import UIKit
 
 class NavigationController: UINavigationController {
     override var shouldAutorotate : Bool {
-        return false
+        return true
     }
     override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
         return .portrait

@@ -26,15 +26,5 @@ class ViewController: UIViewController {
 //        self.presentViewController(b, animated: true, completion: nil)
         self.show(DViewController(), sender: nil)
     }
-    
-    override var shouldAutorotate : Bool {
-        return false
-    }
-    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
-        return .portrait
-    }
-    override var preferredInterfaceOrientationForPresentation : UIInterfaceOrientation {
-        return .portrait
-    }
 }
 
